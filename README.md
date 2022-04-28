@@ -1,10 +1,10 @@
 # ZIGZAG Clone Coding (반응형 홈페이지)
 ***
 ## ZIGZAG 사이트
-![지그재그] (https://zigzag.kr/)
+(https://zigzag.kr/)
 ***
 ## 구현 사이트
-![구현사이트] (https://sparkly-begonia-22c763.netlify.app/)
+(https://sparkly-begonia-22c763.netlify.app/)
 ***
 
 ## 필수 요구사항
