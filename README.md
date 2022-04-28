@@ -1,11 +1,11 @@
 # ZIGZAG Clone Coding (반응형 홈페이지)
-***
+
 ## ZIGZAG 사이트
 (https://zigzag.kr/)
-***
+
 ## 구현 사이트
 (https://sparkly-begonia-22c763.netlify.app/)
-***
+
 
 ## 필수 요구사항
 
@@ -22,7 +22,7 @@
 - [x] JS가 필요한 부분 중 구현할 부분이 있다면 자유롭게 구현해보세요.
 - [x] BEM 방법론을 도입해보세요.
 
-***
+
 
 ### 자바스크립트로 페이지를 구현하면서 잘 안되었던 부분 (FEEDBACK 부탁드려요)
 
