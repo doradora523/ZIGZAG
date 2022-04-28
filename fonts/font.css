@@ -1,0 +1,36 @@
+@font-face {
+  font-family: '지그재그고딕60';
+  src: url('../fonts/HGGGothicssi60g-d70818064e156d8467505e17de6946cc.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '지그재그고딕80';
+  src: url('../fonts/HGGGothicssi80g-804aa8dd7e8880002a2d34cb04f93ad1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '지그재그고딕99';
+  src: url('../fonts/hgggothicssi_99g-9b50ac422c4dc550bbe23984ea43befc.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '지그재그나눔';
+  src: url('../fonts/NanumSquareR-94ee92ffdc2644f347d8c42f92421c6e.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KakaoRegular';
+  src: url('../fonts/KakaoRegular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KakaoBold';
+  src: url('../fonts/KakaoBold.woff');
+  font-weight: normal;
+  font-style: normal;
+}

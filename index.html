@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>지그재그</title>
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/png" href="./favicon-b20ad83423dad48e2ab0c4321f7e991d.ico">
+  <!-- 브라우저 스타일 초기화 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="./fonts/font.css" />
+  <link rel="stylesheet" href="./css/keyframes.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main1024px.css">
+
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- IntersectionObserver -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+  <!-- Main JS -->
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+   
+  <header>
+    <div class="center">
+
+      <div class="header-top">
+        <a href="#" class="logo">
+          <img src="./images/logo-white-7684d3487ad6b73b5fcad07c0a48109e.svg" alt="LOGO" />
+        </a>
+        <a href="#" class="pc partner">신규 입점 안내</a>
+      </div>
+
+      <div class="header-bot">
+        <div class="bot-text">
+          <h2>내 맘대로 쇼핑앱<br/>지그재그</h2>
+          <a href="#" class="mobile partner">신규 입점 안내</a>
+          <h4>3천 5백만이 선택한 국민 패션 쇼핑앱<br/>6,500개 이상 여성 쇼핑몰과 브랜드를 한 번에</h4>
+          <div class="download">
+            <div class="qr-code">
+              <p>QR코드 다운로드</p>
+              <img width="112px" height="112px" src="./images/qrcode@3x-20d2cdc56d81b9315f8579e164a14f3b.png" alt="QR-Code Download" />
+            </div>
+            <div class="appstore">
+              <p>앱스토어 다운로드</p>
+              <div class="apple">
+                <a target="_blank" rel="noreferrer" area-label="app-store" href="https://go.onelink.me/app/d3897a5b">
+                  <img src="./images/app-store-pink-b664a764dc6e2a4bd2bc5387474d6c35.svg" alt="Appstore Download" />
+                </a>
+              </div>
+              <div class="google">
+                <a target="_blank" rel="noreferrer" area-label="google-play" href="https://go.onelink.me/app/189189a0">
+                  <img src="./images/google-play-pink-fcf436496f2fe8d6fedb878dbd095871.svg" alt="Google Play Download" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app__img">
+        <img src="./images/hero_app_image-b117b918c071f9b1201f74b7baa83133.png" alt="APP" />
+      </div>
+
+    </div>
+  </header>
+
+<section id="tabMenu">
+  <div class="pinkConfetties">
+    <div class="conf conf1"></div>
+    <div class="conf conf2"></div>
+    <div class="conf conf3"></div>
+    <div class="conf conf4"></div>
+    <div class="conf conf5"></div>
+    <div class="conf conf6"></div>
+    <div class="conf conf7"></div>
+    <div class="conf conf8"></div>
+    <div class="conf conf9"></div>
+    <div class="conf conf10"></div>
+    <div class="conf conf11"></div>       
+  </div>
+  <div class="center">
+    <div class="tab-container">
+      <div class="tab-wrapper">
+        <ul class="tab--menu">
+          <li id="tab1" class="on" data-index="0">즐겨찾기</li>
+          <li id="tab2" data-index="1">Z결제</li>
+          <li id="tab3" data-index="2">직진배송</li>
+          <li id="tab4" data-index="3">스마트검색</li>
+          <li id="tab5" data-index="4">내상품</li>
+        </ul>
+        <div class="contents-wrap">
+          <div class="tab--contents show">
+            <div class="imgbox">
+              <div class="tab--img tab1"></div>
+            </div>
+            <div class="tab--textbox right left">
+              <div class="tab--text">
+                <h2>
+                  6,500개 이상 쇼핑몰에<br/>
+                  브랜드까지<br class="br" />
+                  한 번에 즐겨찾기
+                </h2>
+                <p>
+                  6,500개 이상 쇼핑몰과 브랜드<br/>
+                  한 번에 즐겨찾기
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab--contents">
+            <div class="imgbox">
+              <div class="tab--img tab2"></div>
+            </div>
+            <div class="tab--textbox right left">
+              <div class="tab--text">
+                <h2>
+                  결제는 한 번만<br/>
+                  포인트는 한 곳에
+                </h2>
+                <p>
+                  6,500개 쇼핑몰과 브랜드, 가입도 결제도 한 번에<br/>
+                  쇼핑은 여러 곳에서, 포인트는 한 곳에
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab--contents">
+            <div class="imgbox">
+              <div class="tab--img tab3"></div>
+            </div>
+            <div class="tab--textbox right left">
+              <div class="tab--text">
+                <h2>
+                  지그재그가<br class="br" />
+                  선보이는<br/>
+                  빠른배송
+                </h2>
+                <p>
+                  쇼핑은 지그재그로 배송은 직진으로<br/>
+                  오늘 주문하면 전국 어디든 내일 도착!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab--contents">
+            <div class="imgbox">
+              <div class="tab--img tab4"></div>
+            </div>
+            <div class="tab--textbox right left">
+              <div class="tab--text">
+                <h2>
+                  까다로운 검색도<br/>
+                  필터로 한 번에
+                </h2>
+                <p>
+                  카테고리, 가격, 소재, 컬러까지<br/>
+                  내 마음대로 보고 싶은 상품만<br/>
+                  쏙쏙 골라 볼 수 있어요.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab--contents">
+            <div class="imgbox">
+              <div class="tab--img tab5"></div>
+            </div>
+            <div class="tab--textbox right left">
+              <div class="tab--text">
+                <h2>
+                  모든 아이템을<br>
+                  내 상품에 저장!
+                </h2>
+                <p>
+                  내가 좋아하는 상품만 모아모아 저장!<br/>
+                  특별한 선택으로 가득찬 나만의 옷장을<br/>
+                  지그재그로 만들어보세요!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="partner" class="scroll-spy">
+  <div class="center">
+    <div class="partner-textbox">
+      <h2 class="back-to-position to-up delay-0">
+        지그재그는<br/>
+        입점 파트너와<br/>
+        함께 성장합니다.
+      </h2>
+      <p class="back-to-position to-up delay-1">
+        매월 370만 고객이 이용하는 성공 플랫폼<br/>
+        지그재그, 지금 바로 시작하세요.
+      </p>
+      <div class="partner-btn back-to-position delay-3">
+        <a href="#" class="new-partner">
+          <p>신규 파트너</p>
+          <h3>플랫폼 입점 안내</h3>
+        </a>
+        <a href="#" class="existing-partner">
+          <p>기존 파트너</p>
+          <h3>파트너 센터 로그인</h3>
+        </a>
+      </div>
+    </div>
+    <div class="partner-img back-to-position delay-4"></div>
+  </div>
+</section>
+
+
+<section id="counting">
+  <div class="countbox">
+    <div class="whatAbout">
+      <h3>여성 쇼핑몰&브랜드</h3>
+      <h3>2021년 거래액</h3>
+      <h3>매월 사용자</h3>
+      <h3>앱 다운로드</h3>
+    </div>
+    <div class="howMany">
+      <h3>
+        <span class="count_no" data="6500">0</span> 개
+      </h3>
+      <h3>
+        <span class="count_no" data="1">0</span> 조
+      </h3>
+      <h3>
+        <span class="count_no" data="370">0</span> 만
+      </h3>
+      <h3>
+        <span class="count_no" data="3500">0</span> 만
+      </h3>
+    </div>
+  </div>
+  <p class="based_on">
+    2021년 12월 기준
+  </p>
+</section>
+
+
+<section id="foot-download">
+  <div class="center">
+    <h3>
+      지금 바로 지그재그를<br/>
+      다운로드 하세요.
+    </h3>
+    <div class="download">
+      <div class="qr-code">
+        <p>QR코드 다운로드</p>
+        <img width="112px" height="112px" src="./images/qrcode-pink@3x-05d34eb2ba0d098f9c38164a9f33bee0.png" alt="QR-Code Download" />
+      </div>
+      <div class="appstore">
+        <p>앱스토어 다운로드</p>
+        <div class="apple">
+          <a target="_blank" rel="noreferrer" area-label="app-store" href="https://go.onelink.me/app/d3897a5b">
+            <img src="./images/app-store-pink-b664a764dc6e2a4bd2bc5387474d6c35.svg" alt="Appstore Download" />
+          </a>
+        </div>
+        <div class="google">
+          <a target="_blank" rel="noreferrer" area-label="google-play" href="https://go.onelink.me/app/189189a0">
+            <img src="./images/google-play-pink-fcf436496f2fe8d6fedb878dbd095871.svg" alt="Google Play Download" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="center">
+    <h4>(주) 카카오스타일</h4>
+    <div class="foot--contents">
+      <div>
+        <p>대표 : 서정훈</p>
+        <p>주소 : 서울시 강남구 테헤란로 521 파르나스타워, 27층</p>
+      </div>
+      <div>
+        <p>쇼핑몰/브랜드 제휴 문의 : shop@zigzag.kr</p>
+        <p>마케팅 제휴문의 : marketing@zigzag.kr</p>
+        <p>홍보문의 : pr@zigzag.kr</p>
+      </div>
+      <div>
+        <p>고객문의 : support@zigzag.kr / 1670-8050 (09:00~18:00)</p>
+        <p>전화번호 : 02-1670-8050</p>
+      </div>
+      <div>
+        <p>통신판매업 신고번호 : 2018-서울강남-03345</p>
+        <p>사업자등록번호 : 214-88-91525</p>
+      </div>
+    </div>
+    <p class="copyright">
+      (주)카카오스타일은 통신판매중개자로서 통신판매의 당사자가 아닙니다. 따라서, 등록된 상품 거래정보 및 거래에 대하여 (주)카카오스타일은 어떠한 책임도 지지 않습니다.<br/>
+      Copyright &copy; kakaostyle Corp. All rights reserved.
+    </p>
+    <div class="utilMenu">
+      <ul class="foot--menu">
+        <li><a href="#">사업자정보확인</a></li>
+        <li><a href="#">셀러 이용약관</a></li>
+        <li><a href="#">유저 이용약관</a></li>
+        <li><a href="#">셀러 개인정보처리방침</a></li>
+        <li><a href="#">유저 개인정보처리방침</a></li>
+        <li><a href="#">인재영입</a></li>
+      </ul>
+      <ul class="sns">
+        <li><a class="sns__insta" target="_blank" rel="noreferrer" href="https://www.instagram.com/zigzag_korea/"></a></li>
+        <li><a class="sns__1boon" target="_blank" rel="noreferrer" href="https://1boon.kakao.com/zigzag"></a></li>
+        <li><a class="sns__katalk" target="_blank" rel="noreferrer" href="https://pf.kakao.com/_eddbM"></a></li>
+        <li><a class="sns__youtube" target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC5CTLf-G91F8BCEKMPQEDDg"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="m_download">
+  <div class="m_appstore">
+    <div class="m_apple">
+      <a target="_blank" rel="noreferrer" area-label="app-store" href="https://go.onelink.me/app/d3897a5b">
+        <div class="m_apple_img"></div>
+      </a>
+    </div>
+    <div class="m_google">
+      <a target="_blank" rel="noreferrer" area-label="google-play" href="https://go.onelink.me/app/189189a0">
+        <div class="m_google_img"></div>
+      </a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,305 @@
+@media screen and (max-width:1024px)
+{
+  /* center */
+  .center {
+    width: 750px;
+  }
+  
+  /* DOWNLOAD */
+  .download {
+    display: none;
+  }
+
+
+
+  /* HEADER */
+  header {
+    height: 987px;
+  }
+
+  /* HEADER-TOP */
+  header .header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .header-top .logo img{
+    width: 130px;
+    height: 46px;
+    margin-top: 107px;
+    margin-left: 0px;
+  }
+  header .header-top .pc.partner {
+    display: none;
+  }
+  
+  /* HEADER-BOT */
+  header .header-bot {
+    position:relative;
+    display: flex;
+    height: 100%;
+  }
+  header .header-bot .bot-text {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .header-bot .bot-text h2 {
+    position:relative;
+    bottom: 0%;
+    font-size: 75px;
+    line-height: 1.04;
+    margin-top: 30px;
+    letter-spacing: -2.18px;
+  }
+  header .header-bot .mobile.partner {
+    display: block;
+    width: 133px;
+    height: 35px;
+    color: #fff;
+    margin-top: 26px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 35px;
+  }
+  header .header-bot .bot-text h4 {
+    display:none;
+  }
+  /* APP__IMG */
+  header .app__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    left: 30px;
+  }
+  
+
+
+  /* TABMENU */
+  #tabMenu {
+    height: 1117px;
+  }  
+  #tabMenu .tab-container .tab-wrapper .tab--menu li {
+    font-size: 20px;
+    padding: 0 25px;
+  }
+  #tabMenu .tab-container .tab-wrapper .contents-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--textbox {
+    width: 100%;;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    transform: translateY(0);
+    margin-top: 171px;
+    text-align: center;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--textbox .br {
+    display: none;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--textbox .tab--text h2 {
+    font-size: 48px;
+    line-height: 1.19;
+    letter-spacing: -1px;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--textbox .tab--text p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 28px;
+  }
+  
+  #tabMenu .tab-container .tab-wrapper .tab--contents .imgbox { 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 379px;
+    height: 652px;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  #tabMenu .tab-container .tab-wrapper .tab--contents .tab--img {
+    position: absolute;
+    bottom: 0;
+    background-size: 379px 652px;
+  }
+  
+
+
+  /* PARTNER */
+  #partner {
+    height: 1230px;
+    background-color: #fff;
+    position: relative;
+  }
+  #partner .center {
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+  }
+  #partner .partner-textbox {
+    margin-right: 0;
+    padding-top: 90px;
+  }
+  #partner .partner-textbox > h2 {
+    font-size: 48px;
+    line-height: 1.19;
+    letter-spacing: -1px;
+  }
+  #partner .partner-textbox > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  #partner .partner-btn {
+    position: absolute;
+    bottom: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    padding-top: 12px;
+    text-align: center;
+  }
+  #partner .partner-btn > a {
+    width: 230px;
+    height: 96px;
+    padding-top: 20px;
+  }
+  #partner .partner-btn a > p {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  #partner .partner-btn a > h3 {
+    font-size: 24px;
+  }
+  #partner .partner-btn .new-partner {
+    border-radius: 48px;
+    margin-right: 10px;
+  }
+  #partner .partner-btn .existing-partner {
+    background-color:#fff;
+    border-radius: 48px;
+  }
+  #partner .partner-img {
+    width: 552px;
+    height: 430px;
+    margin: 48px auto 88px;
+  }
+  
+
+
+  /* BACK-TO-POSITION */
+  .back-to-position {
+    opacity: 0;
+    transition: 1s;
+  }
+  .back-to-position.to-up {
+    transform: translateY(30px)
+  }
+  .show .back-to-position {
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 1s;
+  }
+  .show .back-to-position.delay-1 {
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+  }
+  .show .back-to-position.delay-2 {
+    transition-delay: .4s;
+    transition-timing-function: ease-out;
+  }
+  .show .back-to-position.delay-3 {
+    transition-delay: .5s;
+    transition-timing-function: ease;
+  }
+  .show .back-to-position.delay-4 {
+    transition-delay: .75s;
+    transition-timing-function: ease-out;
+  }
+  
+
+  
+  /* FOOT-DOWNLOAD */
+  #foot-download {
+    display: none;
+  }
+  
+
+  
+  /* FOOTER */
+  footer {
+    height:300px;
+    padding: 91px 28px 98px;
+  }
+  footer .center {
+    width: 100%;
+    height: 100%;
+  }
+  footer .center > h4 {
+    font-size: 22px;
+    line-height: 1.23;
+  }
+  footer .foot--contents div {
+    display: flex;
+    font-size: 16px;
+  }
+  footer .foot--contents div p {
+    margin-right: 40px;
+  }
+  footer .copyright {
+    margin: 12px 0 0;
+  }
+  footer .utilMenu {
+    display: none;
+  }
+
+
+
+  /* M_DOWNLOAD */
+  .m_download {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #fe349c;
+    z-index: 999;
+  }
+  .m_download .m_appstore {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .m_download .m_appstore .m_apple .m_apple_img {
+    width: 276px;
+    height: 50px;
+    background-image: url("../images/app-store-typo-2afc9be4f1661a336ede495faa8f60eb.svg");
+    background-size: 276px 50px;
+  }
+  .m_google .m_google_img{
+    width: 276px;
+    height: 50px;
+    background-image: url("../images/google-play-typo-4630403f2d0e1b0f06af08b5b04d6277.svg");
+    background-size: 276px 50px;
+  }
+
+}

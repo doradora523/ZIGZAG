@@ -1,0 +1,125 @@
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes app__img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes h_sub {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes h_text {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes download {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tab_menu {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes tab_text {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes tab_text_right {
+  0% {
+    transform: translateX(-75px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes tab_text_left {
+  0% {
+    transform: translateX(75px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Pink Confetties */
+@keyframes conf1 {
+  100% {
+    transform: 
+      translateY(150px)
+      translateX(2560px)
+      translateZ(500px)
+      rotate3d(1, .25, .25, 220deg);  
+  }
+}
+@keyframes conf2 {
+  100% {
+    transform:
+      translateY(150px)
+      translateX(2560px)
+      translateZ(300px)
+      rotate3d(.25, 1, 1, 420deg);  
+  }
+}
+@keyframes conf3 {
+  100% {
+    transform:
+      translateY(160px)
+      translateX(2560px)
+      translateZ(-500px)
+      rotate3d(1, 1, .25, 720deg);  
+  }
+}
+@keyframes conf4 {
+  100% {
+    transform:
+      translateY(200px)
+      translateX(2560px)
+      translateZ(400px)
+      rotate3d(.25, 1, .25, 820deg);  
+  }
+}
+@keyframes conf5 {
+  100% {
+    transform:
+      translateY(300px)
+      translateX(2560px)
+      translateZ(-100px)
+      rotate3d(1, 1, 1, 720deg);  
+  }
+}
