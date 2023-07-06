@@ -6,9 +6,7 @@ https://zigzag.kr/
 ## 구현 사이트
 [DEMO](https://sparkly-begonia-22c763.netlify.app/)
 
-
-![screencapture-sparkly-begonia-22c763-netlify-app-2022-06-30-00_31_27](https://user-images.githubusercontent.com/94670754/176476543-c33cce0b-ae0d-4ddc-954b-125351367f6a.png)
-
+https://github.com/doradora523/ZIGZAG/assets/94670754/84fbcef6-f41f-4871-9f65-0c1511bc12ea
 
 ## 필수 요구사항
 
