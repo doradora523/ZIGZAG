@@ -31,6 +31,7 @@ https://github.com/doradora523/ZIGZAG/assets/94670754/981d1dc6-5694-4221-b022-7d
     *슬라이드가 동작할 때 동시에 탭을 누르면 누른 횟수만큼 슬라이드가 반복이 되지 않도록 해야 하며 탭 메뉴를 클릭한 횟수와 별개로 자동 슬라이드가 최초 1회만 반복하고 슬라이드가 멈춰야만 그다음 메뉴를 클릭 했을 때 다시 1회 반복할 수 있도록 해야 한다.*
     
 - **문제 해결**
+  
    slide 함수가 interval 로 돌면서, 첫 번째 메뉴에서 멈추게 되는데, 이때 isStart 값을 다시 false 로 바꾸는 로직이 없어서 이벤트가 실행되지 않은 것으로 판단되어 false 로 바꾸는 로직을 slide함수 안에 넣은 후 확인해보니 정상적으로 원하는 기능이 구현되었습니다.
     
 
@@ -38,5 +39,6 @@ https://github.com/doradora523/ZIGZAG/assets/94670754/981d1dc6-5694-4221-b022-7d
 
 - `tabMenu` 를 두번째 클릭했을 때 숨어있던 `conf` 등장을 `display:none`을 주면 되는 것처럼 단순하게 생각했었는데 생각처럼 되지 않았던 문제가 있었습니다.
 - **문제 해결**
+  
     js 에서, 메뉴탭이 2회 이상 클릭 된 경우에, `.pinkConfetties`에 class 명을 하나 추가한다음, 
     ex) `show--confetties` 위 css 를 `#tabMenu .pinkConfetties.show--confetties .conf1`, `#tabMenu .pinkConfetties.show--confetties .conf2` .... 으로 변경하게 한 후 메뉴 아이템을 2회 눌렀을 때 날리는 것을 구현시켰습니다.
