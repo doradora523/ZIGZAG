@@ -8,6 +8,9 @@ https://zigzag.kr/
 
 https://github.com/doradora523/ZIGZAG/assets/94670754/84fbcef6-f41f-4871-9f65-0c1511bc12ea
 
+https://github.com/doradora523/ZIGZAG/assets/94670754/981d1dc6-5694-4221-b022-7d25f4fef622
+
+
 ## 필수 요구사항
 
 - [x] 정리된 README.md 파일을 제공하세요!
